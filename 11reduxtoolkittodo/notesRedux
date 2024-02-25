@@ -1,0 +1,28 @@
+Store is single source of tools
+store needs to know wherethe Reducers are 
+
+Features: Slice
+for making slice there are three major requirements:
+1. name 
+2. initialState
+3. reducers list
+
+first we make initialState
+then give names and create reducersList
+
+here in reducers we have access of two things
+1. State 2.Action
+#in state we get updated value in the store
+#in action we get action.payload
+then we have the access of state so we push the elements of todo
+But in context api we needed to use spread function to spread the elements of array then add a new element
+
+but here the state is preserved so we can directly push into the state
+
+Now we need to export every reducer as we don't know which component will use which reducer
+
+and also export the main source of reducers
+
+then we have to take value or send value
+The reducer is sent through dispatch (useDispatch)
+and the value is taken using Selector (useSelector)

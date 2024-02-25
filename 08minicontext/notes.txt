@@ -1,0 +1,19 @@
+Why context api is needed ?
+It is needed as when we want any component inside any other component
+so we don't need to take it on every component can be said parent component(not necessarily)
+but directly by making the global variable of that component
+Then we will use context api by useContext()
+
+
+step 1: Store context in variable after create context
+and export in output
+
+We need to make a provider with every context
+context is like a global variable
+
+how to use it?
+we will make a wrapper of context
+Then it will become provider
+Then every component will get the access to the global variable
+directly tly get access to all the states from user context
+
