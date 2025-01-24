@@ -1,13 +1,8 @@
+import React from 'react'
 
-import './App.css'
-
-function App() {
-  console.log(import.meta.env.VITE_APPWRITE_URL);
-
+const App = () => {
   return (
-    <>
-      <h1>A blog app with appwrite</h1>
-    </>
+    <div className='text-red'>App</div>
   )
 }
 
